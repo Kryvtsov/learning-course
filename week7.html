@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="les.css">
+	
+	<title> 7-я неделя тренинга </title>
+
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/IMG_2649.png" class="logo" alt="логотип Мастер цсс" >
+				<div class="icons">
+				<a href="https://www.google.com.ua/" title="ссылка на гугл" target="_blank"> <img src="images/igplus.png"> </a>
+				<a href="https://www.facebook.com/" title="ссылка на фейсбук" target="_blank"> <img src="images/ifacebook.png"> </a>
+				<a href="https://www.skype.com/ru/" title="ссылка на скайп" target="_blank"> <img src="images/iscype.png"> </a>
+				</div>
+				<div class="name">Онлайн-дневник Владимира (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				
+	 		</div>
+	 	</div>
+	</header>
+
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				 <ul>
+				 	<li><a href="index.html">Главная</a></li>
+				 	<li><a href="about.html">Об авторе</a></li>
+				 	<li><a href="#">Отзыв</a></li>
+				 	<li><a href="svyaz.html">Связаться со мной</a></li>
+				 	<div class="clear"></div> 
+				 </ul>
+			 </div>
+		</div>
+	 </nav>
+
+	<div class="main">
+		<div class="sidebar0">
+			<div class="sidebar">
+				<div class="widj">
+					<ul>
+						<li><a href="week1.html"> Неделя 1 - Ясли </a></li>
+						<li><a href="week2.html"> Неделя 2 - Детский сад</a></li>
+						<li><a href="week3.html"> Неделя 3 - Первый класс :) </a></li>
+						<li><a href="week4.html"> Неделя 4 - Средняя школа </a></li>
+						<li><a href="week5.html"> Неделя 5 - Старший класс </a></li>
+						<li><a href="week6.html"> Неделя 6 - Выпускники</a></li>
+						<li><a href="week7.html"> Неделя 7 - Реформаторы</a></li>
+					</ul>
+				</div>
+			</div>
+			
+				<div class="widj">
+					<ul>
+						<li><a href="#d1"> День 1 - Бэкграунды.</a></li>
+						<li><a href="#d2"> День 2 - Градиенты.</a></li>
+						<li><a href="#d3"> День 3 - Радиальное счастье.</a></li>
+						<li><a href="#d4"> День 4 - . </a></li>
+						<li><a href="#d5"> День 5 - .</a></li>				
+					</ul>
+				</div>
+			
+		</div>
+		<div class="content">
+			<main>
+			<article>
+				<header>
+					<a id="top"></a>
+					<h1>Неделя 7 - Реформаторы </h1>
+				</header>
+
+				<section>
+					<div class="day">
+						<h2 id="d1"> День 1. Бэкграунды.</h2>
+						<p>В CSS3 стало на много удобнее работать с фоновыми изображениями для блоков. </p>
+						<p>Во первых, мы уже можем задавать множественные фоновые изображения.  </p>
+						<p><span class="style">background-size</span> - позволяет управлять размером фоновых изображений.</p>
+						<p><b>Значения</b></p>
+						<ul>
+							<li><i>auto</i> - применяется автоматически, как и должна работать нормально картинка. При этом соблюдаются все пропорции.</li>
+							<li><i>cover</i> - растягивает картинку по больше стороне блока, с соблюдением пропорций.</li>
+							<li><i>contain</i> - задает размер для картинки такой, что бы она она полностью поместилась в блоке.</li>
+							<li><i>проценты</i> - задаем размер в процентах (это процент размеров от нашего блока а не от самой картинки)</li>
+							<li><i>точные значения</i> - задает размер в px, em, cm...</li>
+						</ul>
+
+
+						<p><span class="style">background-origin</span> - позиционирует фоновые картинки относительно границ и отступов блока.</p>						
+						<p><b>Значения</b></p>
+						<ul>
+							<li><i>padding-box</i> - фоновая картинка позициронируется относительно внутренних полей.</li>
+							<li><i>border-box</i> - фоновая картинка позициронируется относительно границы.</li>
+							<li><i>content-box</i> - фоновая картинка позициронируется относительно рабочей области.</li>
+							
+						</ul>
+
+						<p><span class="style">background-clip</span> - задает правила обработки фона ЦЕЛИКОМ (даже цвета). И если что-то выходит за рамки - оно обрезается. Значения такие же как и у <span class="style">background-origin</span></p>
+
+						<div class="bgtest"></div>
+						<h3 >Домашнее задание:</h3>
+						<div class="home_bgd"></div>
+
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d2"> День 2. Градиенты.</h2>
+						<p>В CSS3 появилось множество возможностей управления и задания градиентами.</p>
+						
+						<div class="important">
+							<p>Градиент задается через свойство background (background-image) и он является картинкой, которую генерирует браузер согласно коду.</p>
+						</div>
+
+						<p><span class="style">linear-gradient</span> - задает линейный градиент.</p>
+						<p>Самый простой градиент (сверху вниз):</p>
+						<div class="grad"></div>
+						<p>Градиент с наклоном:</p>
+						<div class="grad2"></div>
+						<p>Градиент с контролируемым переходом:</p>
+						<div class="grad3"></div>
+						<p>Контролируем размеры, повторения и местоположения:</p>
+						<div class="grad4"></div>
+						<p>Прозрачность и треугольность:</p>
+						<div class="grad5"></div>
+						<p>Множественные градиенты:</p>
+						<div class="grad6"></div>
+
+						<h3 >Домашнее задание:</h3>
+
+						<p>Для всех:</p>
+						<div class="home_grad1"></div>
+						<p>Для продвинутых:</p>
+						<div class="home_grad2"></div>
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d3"> День 3. Радиальное счастье.</h2>
+						<p>В CSS3 мы можем задавать радиальные градиенты. Делается это почти так же как с линейными.</p>
+						
+						<div class="important">
+							<p>В зависимости от блока радиальный градиент может быть круглым или формы эллипса. Мы можем влиять на этот параметр</p>
+						</div>
+
+						<p><span class="style">radial-gradient</span>- задает радиальный градиент.</p>
+						<div class="rgrad1"></div>
+						<p>Радиальный градиент имеет 2 типа: круглый (картинка снизу) и ввиде эллипса (картинка сверху). А может и наоборот.</p>
+						<div class="rgrad2"></div>
+						<div class="important">
+							<p>Если фигура "квадрат", то мы не можем влиять на форму радиального градиента (она будет круглой)</p>
+						</div>
+
+						<p>Позиционирование.</p>
+						<div class="rgrad3"></div>
+
+
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d4"> День 4. .</h2>
+						<p></p>
+
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d5"> День 5. .</h2>
+						<p></p>
+
+						
+					</div>
+				</section>
+
+				
+			</article>
+			</main>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="footer" >
+			
+				<p > 2016 Сделано по тренингу "Верстаем на 5+ 2.0" <img src="images/logo-foot.png" align="right"></p>
+			
+		</div>
+	</footer>
+</body> 
+</html>

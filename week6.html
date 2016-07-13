@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="les.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/progressbaranimate.js"></script>
+	<title> 6-я неделя тренинга </title>
+
+
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="mid">
+				<img src="images/IMG_2649.png" class="logo" alt="логотип Мастер цсс" >
+				<div class="icons">
+				<a href="https://www.google.com.ua/" title="ссылка на гугл" target="_blank"> <img src="images/igplus.png"> </a>
+				<a href="https://www.facebook.com/" title="ссылка на фейсбук" target="_blank"> <img src="images/ifacebook.png"> </a>
+				<a href="https://www.skype.com/ru/" title="ссылка на скайп" target="_blank"> <img src="images/iscype.png"> </a>
+				</div>
+				<div class="name">Онлайн-дневник Владимира (страшно смотреть)</div>
+				<div class="disc">Здесь содержатся заметки, созданные в ходе обучения на тренинге.</div>
+				
+	 		</div>
+	 	</div>
+	</header>
+
+	<nav>
+		<div class="mmenu">
+			<div class="mid">
+				 <ul>
+				 	<li><a href="index.html">Главная</a></li>
+				 	<li><a href="about.html">Об авторе</a></li>
+				 	<li><a href="#">Отзыв</a></li>
+				 	<li><a href="svyaz.html">Связаться со мной</a></li>
+				 	<div class="clear"></div> 
+				 </ul>
+			 </div>
+		</div>
+	 </nav>
+
+	<div class="main">
+		<div class="sidebar0">
+			<div class="sidebar">
+				<div class="widj">
+					<ul>
+						<li><a href="week1.html"> Неделя 1 - Ясли </a></li>
+						<li><a href="week2.html"> Неделя 2 - Детский сад</a></li>
+						<li><a href="week3.html"> Неделя 3 - Первый класс :) </a></li>
+						<li><a href="week4.html"> Неделя 4 - Средняя школа </a></li>
+						<li><a href="week5.html"> Неделя 5 - Старший класс </a></li>
+						<li><a href="week6.html"> Неделя 6 - Выпускники</a></li>
+						<li><a href="week7.html"> Неделя 7 - Реформаторы</a></li>
+					</ul>
+				</div>
+			</div>
+			
+				<div class="widj">
+					<ul>
+						<li><a href="#d1"> День 1 - Прогрессивные личности.</a></li>
+						<li><a href="#d2"> День 2 - Псевдоэлементы.</a></li>
+						<li><a href="#d3"> День 3 - Псевдоклассы.</a></li>
+						<li><a href="#d4"> День 4 - Псевдоуникумы... </a></li>
+						<li><a href="#d5"> День 5 - Тексты и тени.</a></li>				
+					</ul>
+				</div>
+			
+		</div>
+		<div class="content">
+			<main>
+			<article>
+				<header>
+					<a id="top"></a>
+					<h1>Неделя 6 - Выпускники </h1>
+				</header>
+
+				<section>
+					<div class="day">
+						<h2 id="d1"> День 1. Прогрессивные личности.</h2>
+						<p><span class="tag">&lt;progress&gt;</span> - создает прогресс-бар, который мы можем анимировать через JavaScript.</p>
+						<p>Загрузка мозга: <progress value="0" max="100" id="progressbar"> >Загрузка мозга</progress> </p>
+
+						<p><span class="tag">&lt;meter&gt;</span> - отображает числовые значения в баре и в зависимости от значения окрашивает строку в определенный цвет.</p>
+						<p>Пример1 (значение=20):</p>
+						<p>	<meter value="20" min="0" max="100" low="33" optimum="54" high="77"></meter> - оптимальное 54</p>
+						<p>	<meter value="20" min="0" max="100" low="33" optimum="14" high="77"></meter> - оптимальное 14</p>
+						<p>	<meter value="20" min="0" max="100" low="33" optimum="89" high="77"></meter> - оптимальное 89</p>
+
+						<p>Пример 2 (нервное состояние):</p>
+						<p>	<meter value="20" min="0" max="100" low="33" optimum="14" high="77">хорошее</meter> - хорошее</p>
+						<p>	<meter value="54" min="0" max="100" low="33" optimum="14" high="77">волнуется</meter> - волнуется</p>
+						<p>	<meter value="80" min="0" max="100" low="33" optimum="14" high="77">может ударить</meter> - может ударить</p>
+						<div class="important">
+							<p>Если браузер не понимает теги <span class="tag">&lt;progress&gt;</span> и <span class="tag">&lt;meter&gt;</span> вместо рисунков он отображает текст, который находится в них. </p>
+						</div>
+						<p><span class="tag">&lt;details&gt;</span> - создает спойлер.</p>
+						<p><span class="tag">&lt;summary&gt;</span> - создает название для спойлера.</p>
+
+						<details>
+							<summary>Кликни меня</summary>
+							Поздравляю вы легко ведомы:)
+						</details>
+
+						<p><i>details и summary пока не поддерживаются эксплорером и мозиллой</i></p>
+
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d2"> День 2. Псевдоэлементы.</h2>
+						<p>Псевдоэлементы позволяют использовать какие то новые элементы не добавляя в HTML код.</p>
+
+						<p> <span class="style">::after</span> - добавляет псевдоэлемент в конце тега.</p>
+						<p> <span class="style">::before</span> - добавляет псевдоэлемент в начале тега.</p>
+						<div class="important">
+							<p>Псевдоэлементы <span class="style">::after</span> и <span class="style">::before</span> работают при наличии свойства <span class="style">content</span> </p>
+						</div>
+						
+						<div class="fishka">
+							<p>Когда не нужен текст для псевдоэлементов можно в контенте указать пустой символ пробел или спецсимвол пробела</p>
+						</div>
+
+						<p><span class="style">::first-letter</span> - задает стили для первого символа</p>
+						<p><span class="style">::first-line</span> - задает стили для первой строки</p>
+
+						<div class="important">
+							<p>Лучше использовать новые (два двоеточия, старые - одно) псевдоэлементы, тк они работают во всех браузерах.</p>
+						</div>
+
+						<p><span class="style">::selection</span> - позволяет задавать стили к выделенному тексту.</p>
+
+						<p>Пример:</p>
+						<p class="testpe"> Вот такой псевдоэлемент! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, ullam!</p>
+
+						<p class="pe">Тестовая цитата - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolores blanditiis delectus sunt, explicabo quod sapiente officiis, in ratione sequi eum. Voluptates, harum aliquid adipisci cumque corporis!</p>
+
+						<p>Домашнее задание (сделать 2 блока из псевдоэлементов):</p>
+
+						<p class="note">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium porro sed sapiente distinctio et. Voluptatem eligendi cumque laborum quam necessitatibus fugit </p>
+						<p class="relax">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, distinctio aperiam cum doloribus, maiores dicta in laudantium provident itaque, corporis eum! Dignissimos non, vel repellendus cum, unde laborum minus error.</p>
+
+						
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d3"> День 3. Псевдоклассы.</h2>
+
+						<p><span class="style">:first-child</span> - задает стили для первого дочернего элемента своего родителя.</p>
+						<p><span class="style">:last-child</span> - задает стили для последнего дочернего элемента своего родителя.</p>
+
+						<p><span class="style">:nth-child(значение)</span> - задает стили через нумерацию дочерних элементов родителя.</p>
+						<p><b>Значение псевдокласса:</b></p>
+						<ul>
+							<li><i>odd</i> - применяет стили к нечетным элементам</li>
+							<li><i>even</i> - применяет стили к четным элементам</li>
+							<li><i>число</i> - задает значение определенному элементу</li>
+							<li><i>1</i> - равносилен псевдоклассу <span class="style">:first-child</span> </li>
+							<li><i>2n</i> - равносилен значению even</li>
+							<li><i>2n+1</i> - равносилен значению odd</li>
+							<li><i>xn+y</i> - x - это шаг, y - с какого знгачения начинать (например 3n+2). y может быть и отрицательным.</li>
+						</ul>
+
+						<p><span class="style">:nth-last-child(значение)</span> - задает стили через нумерацию дочерних элементов родителя начиная с конца.</p>
+						<div class="important">
+							<p>Когда мы ему задаем значение равное 1 - оно равносильно псевдоклассу <span class="style">:last-child</span></p>
+						</div>
+
+						
+
+						<h3>Тестовый список:</h3>
+						<ul class="pk">
+							<li>Lorem ipsum.</li>
+							<li>Dolorem, reprehenderit.</li>
+							<li>Iste, autem.</li>
+							<li>Explicabo, quam!</li>
+							<li>Quidem, tempora.</li>
+							<li>Possimus, eos.</li>
+							<li>Nihil, ipsa.</li>
+							<li>Deserunt, voluptatum.</li>
+							<li>Porro, facilis.</li>
+							<li>Voluptatem, eaque.</li>
+						</ul>
+
+						<p><span class="style">:nth-of-type(значение)</span> - задает стили через нумерацию дочерних элементов родителя согласно их типу.</p>
+						<p><span class="style">:nth-last-of-type(значение)</span> - задает стили через нумерацию дочерних элементов родителя согласно их типу начиная с конца.</p>
+
+						<p class="pk">
+							<b>Нулевой </b>
+							<em>Первый </em>
+							<em>Второй </em>
+							<em>Третий </em>
+						</p>
+
+						<p>Домашка: делаем боковую менюшку с помощью псевдоклассов.</p>
+
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d4"> День 4. Псевдоуникумы...</h2>
+						<p><span class="style">:only-child</span> - указывает стили для элементов которые являются единственными у родителя.</p>
+						<p><span class="style">:only-of-type</span> - указывает стили для элементов которые являются единственными своего типа у родителя.</p>
+						<p><span class="style">:empty</span> - указывает стили для элементов которые являются пустыми.</p>
+						<p><span class="style">:not(селектор)</span> - указывает стили для элементов которые не имеют указанный селектор.</p>
+
+						<p class="pk2">
+							<b>Один </b>
+							<i>Два </i>
+							<u>Три </u>
+							<b>Четыре </b>
+							<ins>Пять </ins>
+							<ins title="Six">Шесть </ins>
+							<span></span>
+						</p>
+
+						<p><span class="style">:root</span> - применяет стили ко всему документу. Аналогичен <span class="tag">&lt;html&gt;</span></p>
+						<p><span class="style">:target</span> - применяет стили к якорям по которым мы переходим. При чем когда мы уходим из якорей стили пропадают.</p>
+						<a href="#d1">1</a>
+						<a href="#d2">2</a>
+						<a href="#d3">3</a>
+						<a href="#d4">4</a>
+						<a href="#d5">5</a>
+
+					</div>
+				</section>
+				<section>
+					<div class="day">
+						<h2 id="d5"> День 5. Тексты и тени.</h2>
+						<h3>Переносы слов</h3>
+						<p><span class="style">text-overflow</span> - указывает обрезку текста, который не влазит в блок.</p>
+						<p><b>Значения:</b></p>
+						<ul>
+							<li><i>clip</i> - обрезает текст, который не влазит в блок.</li>
+							<li><i>ellipsis</i> - делает тоже самое, только добавляет в конце троеточие.</li>
+						</ul>
+
+						<div class="texo">
+							Это обычный текст который мы будем испытывать на этой странице и в этом абзаце. Как то так.
+						</div>
+
+						<div class="important">
+							<p>Это свойство работает, только если свойство <span class="style">over-flow</span> имеет значения auto; scroll; hidden.</p>
+						</div>
+
+						<p><span class="style">word-break</span> - указывает как следует переносить длинные слова.</p>
+						<div class="wb">
+							Этомынаписалицеликомибезпробеловдляэкспериментакоторыйбудемсейчасставить.
+						</div>
+						<p><span class="tag">&lt;wbr&gt;</span> - указывает браузеру где необходимо разместить перенос.</p>
+
+						<div class="wbr">
+							Этомынаписали<wbr>целикомибезпробелов<wbr>дляэксперимента<wbr>которыйбудемсейчасста&shy;вить.
+						</div>
+						<div class="important">
+							<p>Тег <span class="tag">&lt;wbr&gt;</span> и мягкий перенос слов не работают если указано свойство<span class="style">word-break:braek-all</span>.</p>
+						</div>
+
+						<h3>Тени</h3>
+						<p><span class="style">text-shadow</span> - задает тень для текста.</p>
+						<p style="text-shadow:-5px 5px 2px #777;">Это текст с тенью</p>
+						<p style="text-shadow: 1px 1px 0 #F33333, -5px -5px 7px #51E22A; font-size:27px; font-family: Cuprum;">Это текст с двойной тенью</p>
+						<div style="background: #e8e8e8; color:#333; font-style:italic; text-shadow: 1px 1px 0 #f7f7f7;">
+							<p>Это вдавленный текст. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique aperiam amet sunt voluptatibus maxime, repellendus non laborum libero ea obcaecati quis officiis asperiores, provident, excepturi recusandae quaerat cupiditate atque magnam?</p>
+						</div>
+						<p><span class="style">box-shadow</span> - задает тень для элементов сайта.</p>
+
+						<div class="fishka">
+
+						<hr style="height:1px; border:none; width: 80%; background: #777; 
+						box-shadow: 0 -1px 0 #fafafa; ">
+						<hr style="height:20px; border:none; width: 80%; background: #777; 
+						box-shadow: 0 0 7px #333 inset;">
+
+
+						</div>
+						<h3>Добавить внутреннюю тень для картинок:</h3>
+						
+						<div class="img1">
+							<img  src="images/k2.jpg" alt="none" ;>
+						</div>
+						
+						<div class="img2">
+
+						</div>
+						
+						
+					</div>
+				</section>
+
+				
+			</article>
+			</main>
+		</div>
+	</div>
+
+
+	<footer>
+		<div class="footer" >
+			
+				<p > 2016 Сделано по тренингу "Верстаем на 5+ 2.0" <img src="images/logo-foot.png" align="right"></p>
+			
+		</div>
+	</footer>
+</body> 
+</html>

@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Cuprum);
+@import url(https://www.google.com/fonts#UsePlace:use/Collection:Grand+Hotel);
+
+
+/*Теги*/
+body {background: url(images/fbody.png); margin: 0; padding: 0;
+	font: 16px/24px Arial, Tahoma, "Trebushet MS", sans-serif; color: #272727;}
+				/*a:visited {color: #999;}    .a:active {color: red;}*/
+a {color: #272727;}
+a:hover {color: #027272;}
+a:active {color: red;}
+p.a:hover {color: green;}
+h1,h2,h3 {font-family: cuprum; font-weight: normal;}
+h1 {color: #d8d8d8; font-size: 30px; margin: 0 0 20px 0; padding: 0; line-height: 20px;}
+h2 { font-size: 24px; background: #e8e8e8; line-height:24px; width: 100%; padding: 18px 20px 18px 10px; margin: -20px 0 0 -10px; text-shadow: 1px 1px 5px #B5C8DC; border-radius: 5px;}
+h2:target {color: #fefefe; background: #4BA7DC;}
+h3 {font-size: 20px; color: #555; border-bottom: 1px dashed; }
+video, audio {width: 100%;}
+
+
+
+/*Структура сайта*/
+div.header{background: url(images/fhead.png); padding: 5px 0;}
+div.mmenu{background: #e8e8e8}
+div.main{width: 1000px; margin: 40px auto;}
+div.sidebar0{width: 31%; float: right;}
+div.sidebar{margin-bottom: 40px;}
+div.content{width: 65%}
+div.footer p {background: #e8e8e8 ; margin: 0; line-height: 50px;  font-family: Cuprum; font-size: 20px; padding-left: 15%;}
+div.mid{width: 1000px; margin: 0 auto;}
+div.day { background: #fff url(images/fhead.png) repeat-y -110px 0; padding: 20px;margin: 40px 0; box-shadow: 3px 2px 6px #E3F5FA; border-radius: 5px;}
+
+/*Шапка сайта*/
+img.logo {float: left; margin-right: 20px;}
+.name, .disc {font-family: Cuprum; color: white; line-height: 30px;}
+.name {font-size: 30px; padding-top: 20px}
+.disc {font-size: 18px; padding-bottom: 20px;}
+.icons{float: right; padding-top: 40px}
+
+/*Главное меню*/
+div.mmenu ul{margin: 0; padding: 0;   }
+div.mmenu ul li {margin: 0; float: left; line-height: 50px;list-style: none;  font-family: Cuprum; font-size: 20px;}
+div.mmenu ul li a {padding: 0 20px; }
+
+
+
+
+/*Сайдбар*/
+div.widj { background: #fff url(images/fhead.png) repeat-y 300px 0;  padding: 0; }
+div.widj ul {margin: 0; padding: 0; list-style: none; }
+div.widj ul li {line-height: 18px; font-size: 18px; font-family: Cuprum; margin: 0 10px 0 0;}
+div.widj ul li a {display: block;line-height: 18px; font-size: 18px; padding: 16px 0 16px 40px; }
+div.widj ul li a:hover {background: #ddd;}
+
+
+div.widj ul li:nth-child(odd) {background: #fefefe; border-bottom: 1px solid #bbb;}
+div.widj ul li:nth-child(even) {background: #efefef; border-bottom: 1px solid #bbb;}
+div.widj ul li:last-child {border-bottom: none; }
+
+
+
+
+
+/*оформление кода*/
+
+.tag {color: #1D6FD3; font-weight: bold;}
+.style { color: #2C8917; font-style: italic;}
+
+
+/*дополнительные стили*/
+div.clear{clear: both;}
+p.otstup {padding: 0 0 0 20px;}
+.code {background: #efefef url(images/process.png) no-repeat 10px center; border: #bbb solid 1px; padding: 20px 20px 20px 50px; margin: 20px; font-family:  monospace; font-size: 14px; box-shadow: 5px 5px 15px 2px #444 ;}
+.important {background: #E7C10E url(images/warning.png) no-repeat 10px center; border: #07EF1D solid 1px; padding: 0 0 0 50px; margin: 20px; font-family:  monospace; font-size: 14px; box-shadow: 2px 2px 4px 1px #444 ;}
+.fishka {background: #618DF1 url(images/star_full.png) no-repeat 10px center; border: #83E79F solid 1px; padding: 0 0 0 50px; margin: 20px; font-family:  monospace; font-size: 14px; box-shadow: 8px 10px 25px 4px #5D7A93 ;}
+.help {background: #83E79F url(images/help.png) no-repeat 10px center; border: #618DF1 solid 1px; padding: 0 0 0 50px; margin: 20px; font-family:  monospace; font-size: 14px; box-shadow: 5px 5px 15px 2px #444 ;}
+.mistake {color: red;}
+
